@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SHUN'S PORTFOLIO</title>
+	<link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+	<!--- Start Home Section -->
+	<div id="home"></div>
+
+	<!--- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">
+			<p>SHUN'S PORTFOLIO</p>
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#home">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#resources">SKILL</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#clients">Profile</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--- End Navigation -->
+
+	<!--- Start Landing Page Section -->
+	<div class="landing">
+		<div class="home-wrap">
+			<div class="home-inner">
+
+			</div>
+		</div>
+	</div>
+
+	<div class="caption text-center">
+		<h1>I'm SHUN Takano</h1>
+		<h3>Welcome to my page</h3>
+	</div>
+	<!--- End Landing Page Section -->
+
+	<!--- End Home Section -->
+
+	<!--- Start Course Section -->
+
+	<!--- End Course Section -->
+
+	<!--- Start Features Section -->
+
+	<!--- Start Jumbotron  -->
+	<!--- End Jumbotron -->
+
+	<!--- End Features Section -->
+
+	<!--- Start Resources Section -->
+	<div id="resources" class="offset"></div>
+
+	<div class="fixed-background">
+
+		<div class="row dark text-center">
+
+			<div class="col-12">
+				<h3 class="heading">My Skill</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<div class="col-md-4">
+				<h3>HTML 5</h3>
+				<div class="feature">
+					<i class="fas fa-code fa-3x"></i>
+				</div>
+				<p class="lead">HTMLでWebページの大枠を作成します。</p>
+			</div>
+
+			<div class="col-md-4">
+				<h3>BOOTSTRAP 4</h3>
+				<div class="feature">
+					<i class="fas fa-bold fa-3x"></i>
+				</div>
+				<p class="lead">最も有名なWebフレームワークであるBootstrapを活用します。レスポンシブ対応も行います！</p>
+			</div>
+
+			<div class="col-md-4">
+				<h3>CSS 3</h3>
+				<div class="feature">
+					<i class="fab fa-css3 fa-3x"></i>
+				</div>
+				<p class="lead">CSSでwebページの装飾をします。</p>
+			</div>
+
+		</div>
+		<!--- End Row Dark -->
+
+		<div class="home-wrap">
+			<div class="fixed">
+
+			</div>
+		</div>
+
+	</div>
+	<!--- End Fixed Background -->
+
+	<!--- End Resources Section -->
+
+	<!--- Start Clients Section -->
+	<div id="clients" class="offset"></div>
+
+	<!--- Start Jumbotron -->
+	<div class="jumbotron">
+
+		<div class="col-12 text-center">
+			<h3 class="heading">Profile</h3>
+			<div class="heading-underline"></div>
+		</div>
+
+		<div class="row">
+
+			<div class="clients">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="img/IMG_9396 (1).jpg">
+					</div>
+					<div class="col-md-8">
+						<p>1995年生まれ、東京在住です。趣味は海外旅行です。世界20カ国以上旅してきました。そのことから、世界を旅しながら自由に生活したいと思い、フリーランスエンジニアを目指しています。2019年の末からweb制作を中心に日々独学で勉強をしています。
+							まだまだ未熟者ではありますが、お気軽にお声掛けください。ご相談お待ちしております。
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!--- End row -->
+	<!--- End jumbotron -->
+
+	<!--- End Clients Section -->
+
+	<!--- Start Contact Section -->
+	<div id="contact" class="offset">
+		<div id="formWrapper">
+
+			<div class="col-12">
+				<h3 class="heading">contact</h3>
+				<div class="heading-underline"></div>
+			</div>
+
+			<form
+				action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScarUaok5qxhY1t9mbaUiKD2110o5hGmt71VZWQFy7giJe5iw/formResponse"
+				method="post" name="myForm" target="dummyIframe">
+				<input class="shunshun" type="text" name="entry.2005620554" autocomplete="name" placeholder="名前（必須）"
+					required><br>
+				<input class="shunshun" type="email" name="entry.1045781291" value="" autocomplete="email"
+					placeholder="メールアドレス（必須）" required><br>
+				<textarea class="shunshun" name="entry.839337160" placeholder="お問い合わせ内容（必須）" required></textarea><br>
+				<input type="submit" value="送信" onclick="sendGform()">
+			</form>
+
+			<iframe name="dummyIframe" style="display:none;"></iframe>
+		</div>
+		<div id="thxMessage" style="display:none;">お問い合わせありがとうございました。</div>
+		<script>
+			function sendGform() {
+				document.myForm.submit();
+				document.getElementById('formWrapper').style.display = 'none';
+				document.getElementById('thxMessage').style.display = 'block';
+			}
+		</script>
+
+
+
+
+
+
+		<footer>
+			<div class="row justify-content-center">
+
+				<div class="col-md-5 text-center">
+					<a href="https://www.facebook.com/shun1523" target="_blank"><i
+							class="fab fa-facebook-square"></i></a>
+					<a href="https://twitter.com/shun02_6936" target="_blank"><i class="fab fa-twitter-square"></i></a>
+					<a href="https://www.instagram.com/shun02_6936/" target="_blank"><i
+							class="fab fa-instagram"></i></a>
+				</div>
+
+				<hr class="socket">
+				&copy; | Shun All Right Reserved
+
+			</div>
+		</footer>
+
+	</div>
+	</div>
+
+	<!--- End contact Section -->
+
+
+
+	<!--- Script Source Files -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+	<!--- End of Script Source Files -->
+
+</body>
+
+</html>
